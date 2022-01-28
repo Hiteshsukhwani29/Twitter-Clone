@@ -1,6 +1,6 @@
 .feed{
     flex: 0.4;
-    border-right: 1px solid var(--theme-color);
+    border-right: 1px solid var(--theme-background-color);
     min-width: fit-content;
     overflow-y: scroll;
 }
@@ -12,4 +12,18 @@
     z-index: 100;
     border: 1px solid var(--theme-background-color);
     padding: 15px 20px;
+}
+
+.feed-header > h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.feed-header::-webkit-scrollbar{
+    display: none;
+}
+
+.feed{
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
 }
