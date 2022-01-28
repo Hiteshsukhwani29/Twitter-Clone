@@ -14,6 +14,10 @@
     border-radius: 30px;
 }
 
+.sidebarOption-active{
+    color: var(--theme-color);
+}
+
 .sidebarOption > h2{
     font-weight: 800;
     font-size: 20px;
