@@ -3,3 +3,12 @@ body{
   --theme-background-color: #e6ecf0;
   --white: #ffffff;
 }
+
+.App{
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
