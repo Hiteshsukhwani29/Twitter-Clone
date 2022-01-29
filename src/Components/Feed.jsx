@@ -1,6 +1,7 @@
 import React from 'react';
 import './Feed.css';
 import TweetBox from './TweetBox';
+import Post from './Post';
 
 export default function Feed() {
     return <div className='feed'>
@@ -9,6 +10,8 @@ export default function Feed() {
         </div>
 
         <TweetBox/>
+
+        <Post/>
         
     </div>;
 }
