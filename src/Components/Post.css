@@ -1,7 +1,43 @@
 .post{
-
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--theme-background-color);
+    padding-bottom: 10px;
 }
 
-.post > img{
+.post-body{
+    flex: 1;
+    padding: 10px;
+}
+
+.post-headertext > h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: inline;
+}
+
+.post-headerdesc{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.post-body > img{
     border-radius: 20px;
+    width: 100%;
+}
+
+.post-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.post-username{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+
+.post-avatar{
+    padding: 20px;
 }
