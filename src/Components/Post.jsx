@@ -8,7 +8,7 @@ import PublishIcon from '@material-ui/icons/PublishOutlined';
 
 export default function Post(props) {
 
-    let {name, avatar, username, verified, text, image} = props;
+    let { name, avatar, username, verified, text, image } = props;
     return <div className='post'>
         <div className="post-avatar">
             <Avatar src="https://avatars.githubusercontent.com/u/55627571?v=4" />
