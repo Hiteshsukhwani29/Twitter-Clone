@@ -1,3 +1,45 @@
-.widgets{
+.widgets {
     flex: 0.3;
+    overflow-y: scroll;
+}
+
+.widgets::-webkit-scrollbar {
+    display: none;
+}
+
+.widgets {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.widgets-input {
+    display: flex;
+    align-items: center;
+    background-color: var(--theme-background-color);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.widgets-input>input {
+    border: none;
+    background-color: var(--theme-background-color);
+}
+
+.widgets-searchicon {
+    color: gray;
+}
+
+.widgets-container {
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #f5f8fa;
+    padding: 20px;
+}
+
+.widget-container>h2 {
+    font-weight: 800;
+    font-size: 18px;
 }
