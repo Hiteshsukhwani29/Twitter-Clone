@@ -4,6 +4,7 @@ import './Feed.css';
 import TweetBox from './TweetBox';
 import Post from './Post';
 import db from '../Firebase';
+import FlipMove from 'react-flip-move';
 
 export default function Feed() {
 
@@ -23,16 +24,13 @@ export default function Feed() {
 
         <TweetBox/>
 
+        <FlipMove>
         {
             post.map(post => (
-                <Post avatar={post.avatar} name="Hitesh Sukhwani" verified={post.verified} username={post.username} text={post.desc} image={post.image} />
+                <Post key={post.text} avatar={post.avatar} name="Hitesh Sukhwani" verified={post.verified} username={post.username} text={post.desc} image={post.image} />
             ))
         }
+        </FlipMove>
 
-        
-        <Post text="" username="hiteshsukhwani6"/>
-        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="hiteshsukhwani6"/>
-        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="hiteshsukhwani6"/>
-        
     </div>;
 }

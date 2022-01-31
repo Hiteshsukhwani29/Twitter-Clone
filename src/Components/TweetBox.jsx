@@ -13,7 +13,7 @@ export default function TweetBox() {
         e.preventDefault();
         db.collection("Posts").add({
             name: "Hitesh Sukhwani",
-            avatar: "aaa",
+            avatar: "https://avatars.githubusercontent.com/u/55627571?v=4",
             verified: true,
             username: "hiteshsukhwani6",
             desc: message,
