@@ -11,10 +11,10 @@ export default function Feed() {
 
         <TweetBox/>
 
-        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="@hiteshsukhwani6"/>
-        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="@hiteshsukhwani6"/>
-        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="@hiteshsukhwani6"/>
-        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="@hiteshsukhwani6"/>
+        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="hiteshsukhwani6" verified name="Hitesh Sukhwani"/>
+        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="hiteshsukhwani6"/>
+        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="hiteshsukhwani6"/>
+        <Post text="Wanted to reveal something from a long time. The year of 2021 was one of craziest years and it brought some good news too. I received my dream intership from Mitacs and now i am excited to share that i have also received an internship offer from Microsoft for '22" username="hiteshsukhwani6"/>
         
     </div>;
 }
